@@ -10,7 +10,7 @@ return 5.*/
 
 // 需要考虑字符串是null或者全部空格的情况，可以在分割之前做判断
 
-public class lengthOfLastWord {
+public class LengthOfLastWord {
     public int Solution(String s) {
         String[] a = s.split(" ");
         if (a==null || a.length==0) {
@@ -20,7 +20,7 @@ public class lengthOfLastWord {
     }
     public static void main(String[] args) {
     	String t = "I'm gao jing bao";
-    	lengthOfLastWord a =new lengthOfLastWord();
+    	LengthOfLastWord a =new LengthOfLastWord();
     	int j=a.Solution(t);
     	System.out.println(j);
     }

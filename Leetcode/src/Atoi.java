@@ -30,7 +30,7 @@ public class Atoi {
             index ++;
         }
 
-        //4. Conver number and avoid overflow
+        //4. Convert number and avoid overflow
         while(index < str.length())
         {
             ch = str.charAt(index);
