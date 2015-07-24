@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/Leetcode/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode/Leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetcodeExample/LeetcodeExample.iml" filepath="$PROJECT_DIR$/LeetcodeExample/LeetcodeExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lintcode/Lintcode.iml" filepath="$PROJECT_DIR$/Lintcode/Lintcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwordOffer/SwordOffer.iml" filepath="$PROJECT_DIR$/SwordOffer/SwordOffer.iml" />
       <module fileurl="file://$PROJECT_DIR$/hihocoder/hihocoder.iml" filepath="$PROJECT_DIR$/hihocoder/hihocoder.iml" />
     </modules>
   </component>
