@@ -11,7 +11,7 @@ public class P02_maximum_depth_of_binary_tree {
 	 *     TreeNode(int x) { val = x; }
 	 * }
 	 */
-	 public class TreeNode {
+	 public static class TreeNode {
 	     int val;
 	     TreeNode left;
 	     TreeNode right;
@@ -35,5 +35,15 @@ public class P02_maximum_depth_of_binary_tree {
         }
     }
 
+    public static void main(String[] args) {
+        P02_maximum_depth_of_binary_tree P1 = new P02_maximum_depth_of_binary_tree();
+        TreeNode treenode1 = new TreeNode(1);
+        TreeNode treenode2 = new TreeNode(2);
+        TreeNode treenode3 = new TreeNode(3);
+        treenode1.left = treenode2;
+        treenode2.right = treenode3;
+        int a = P1.maxDepth(treenode1);
+        System.out.println(a);
+    }
 
 }
