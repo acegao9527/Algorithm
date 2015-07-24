@@ -1,4 +1,4 @@
-public class strstr {
+public class StrStr {
     public int query(String haystack, String needle) {
         
         if (haystack==null||needle==null) {
@@ -34,7 +34,7 @@ public class strstr {
     public static void main(String[] args) {
         String a="aaa";
         String b="a";
-        strstr mb = new strstr();
+        StrStr mb = new StrStr();
         int c = mb.query(a,b);
         System.out.println(c);
     }

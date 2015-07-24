@@ -22,7 +22,7 @@ public class twoSum{
 }*/
 
 import java.util.*;
-public class twoSum{
+public class TwoSum {
 	public int[] solution(int[] numbers, int target) {
 	   Map<Integer, Integer> map = new HashMap<>();
 
@@ -39,7 +39,7 @@ public class twoSum{
 	}
 	public static void main(String[] args) {
 		int[] a = {1,3,4,5,6,8,9,5,7,4};
-		twoSum b = new twoSum();
+		TwoSum b = new TwoSum();
 		int[] c = b.solution(a,9);
 		for (int i :c ) {
 			System.out.println(i);

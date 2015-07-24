@@ -1,18 +1,18 @@
-/*Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+/*Given a string, determine if it is a Palindrome, considering only alphanumeric characters and ignoring cases.
 
 For example,
-"A man, a plan, a canal: Panama" is a palindrome.
-"race a car" is not a palindrome.
+"A man, a plan, a canal: Panama" is a Palindrome.
+"race a car" is not a Palindrome.
 
 Note:
 Have you consider that the string might be empty? This is a good question to ask during an interview.
 
-For the purpose of this problem, we define empty string as valid palindrome.*/
+For the purpose of this problem, we define empty string as valid Palindrome.*/
 //我的思路
 //1.先判断是否为null或者空
 //2.定义两个指针分别指向字符串的首位
 //3.逐个遍历比较
-public class palindrome {
+public class Palindrome {
     public boolean isPalindrome(String s) {
     	if (s==null||s.length()==0) {
     		return true;
@@ -49,7 +49,7 @@ public class palindrome {
     }
     public static void main(String[] args) {
     	String s = "0k.;r0.k;";
-    	palindrome a =new palindrome();
+    	Palindrome a =new Palindrome();
     	System.out.println(a.isPalindrome(s));
     }
 }
