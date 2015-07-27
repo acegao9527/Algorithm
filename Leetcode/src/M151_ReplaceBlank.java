@@ -11,7 +11,7 @@
 接下来，向前移动指针p1，逐个把它指向的字符复制到p2，碰到一个空格之后，把p1向前移动1格，在p2处插入字符串“20%”，
 由于“20%”长度为3，同时也要把p2向前移动3格。直到p1=p2，表明所有空格都已经替换完毕。*/
 
-public class ReplaceBlank {
+public class M151_ReplaceBlank {
 	private static String testString = "hellow new world!";
 
 	// 计算字符串中包含的空格个数
