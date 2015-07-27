@@ -5,7 +5,9 @@
 1. 这个字符串是否是空的。
 2. 这个字符串是否有非法字符（非0-9之间的字符）。
 3.这个数是正数或者是负数的情况（第一个字符是否为+，-）。
-4. 是否存在溢出的情况（这个比较难考虑到）。*/
+4. 是否存在溢出的情况（这个比较难考虑到）。
+*/
+
 public class M126_StringToStringAtoi {
     public static int myAtoi(String str) {
         int index = 0;
