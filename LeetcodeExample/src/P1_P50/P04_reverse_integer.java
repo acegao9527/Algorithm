@@ -1,7 +1,7 @@
 package P1_P50;
 
 public class P04_reverse_integer {
-    public int reverse(int x) {
+    public static int reverse(int x) {
     	
         if (x==0)
             return 0;
@@ -14,5 +14,9 @@ public class P04_reverse_integer {
         }
         result = x%10+result*10;
         return result;
+    }
+    public static void main(String[] args) {
+        int x=reverse(1534236469);
+        System.out.println(x);
     }
 }

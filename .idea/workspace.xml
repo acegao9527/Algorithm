@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="127e9523-4f40-4b42-8ea0-62bad359235e" name="Default" comment="alter the solution to test of zigzag" />
-    <list default="true" id="5403482f-6314-4236-bc2d-be5a09d53300" name="alter Atoi" comment="add my solution to zigzag">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leetcode/src/M04_ReverseInteger.java" />
+    <list default="true" id="5403482f-6314-4236-bc2d-be5a09d53300" name="alter Atoi" comment="my solution to reverse integer ,take max_value into account">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetcodeExample/src/P1_P50/P04_reverse_integer.java" afterPath="$PROJECT_DIR$/LeetcodeExample/src/P1_P50/P04_reverse_integer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algorithm.iws" />
@@ -67,21 +67,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="P04_reverse_integer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="P04_reverse_integer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LeetcodeExample/src/P1_P50/P04_reverse_integer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.12755102">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="M04_ReverseInteger.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="M04_ReverseInteger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Leetcode/src/M04_ReverseInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63265306">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="5" selection-start-line="23" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -151,6 +151,7 @@
         <option value="$PROJECT_DIR$/LeetcodeExample/src/P101_P150/P101_zigzag_conversion.java" />
         <option value="$PROJECT_DIR$/Leetcode/src/M101_ZigzagConversion.java" />
         <option value="$PROJECT_DIR$/Leetcode/src/M04_ReverseInteger.java" />
+        <option value="$PROJECT_DIR$/LeetcodeExample/src/P1_P50/P04_reverse_integer.java" />
       </list>
     </option>
   </component>
@@ -371,22 +372,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Application.M04_ReverseInteger">
-    <configuration default="false" name="M03_SameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="M03_SameTree" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Leetcode" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.P04_reverse_integer">
     <configuration default="false" name="T101_ZigzagConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="T101_ZigzagConversion" />
@@ -449,6 +435,26 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Leetcode" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="P04_reverse_integer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="P1_P50.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="P1_P50.P04_reverse_integer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LeetcodeExample" />
       <envs />
       <method />
     </configuration>
@@ -677,19 +683,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.BubbleSort" />
-      <item index="1" class="java.lang.String" itemvalue="Application.M03_SameTree" />
-      <item index="2" class="java.lang.String" itemvalue="Application.T101_ZigzagConversion" />
-      <item index="3" class="java.lang.String" itemvalue="Application.P101_zigzag_conversion" />
-      <item index="4" class="java.lang.String" itemvalue="Application.M101_ZigzagConversion" />
-      <item index="5" class="java.lang.String" itemvalue="Application.M04_ReverseInteger" />
+      <item index="1" class="java.lang.String" itemvalue="Application.T101_ZigzagConversion" />
+      <item index="2" class="java.lang.String" itemvalue="Application.P101_zigzag_conversion" />
+      <item index="3" class="java.lang.String" itemvalue="Application.M101_ZigzagConversion" />
+      <item index="4" class="java.lang.String" itemvalue="Application.M04_ReverseInteger" />
+      <item index="5" class="java.lang.String" itemvalue="Application.P04_reverse_integer" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.M04_ReverseInteger" />
-        <item index="1" class="java.lang.String" itemvalue="Application.M101_ZigzagConversion" />
-        <item index="2" class="java.lang.String" itemvalue="Application.P101_zigzag_conversion" />
-        <item index="3" class="java.lang.String" itemvalue="Application.T101_ZigzagConversion" />
-        <item index="4" class="java.lang.String" itemvalue="Application.M03_SameTree" />
+        <item index="0" class="java.lang.String" itemvalue="Application.P04_reverse_integer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.M04_ReverseInteger" />
+        <item index="2" class="java.lang.String" itemvalue="Application.M101_ZigzagConversion" />
+        <item index="3" class="java.lang.String" itemvalue="Application.P101_zigzag_conversion" />
+        <item index="4" class="java.lang.String" itemvalue="Application.T101_ZigzagConversion" />
       </list>
     </recent_temporary>
   </component>
@@ -707,7 +713,7 @@
       <workItem from="1437708762972" duration="14814000" />
       <workItem from="1437752611391" duration="1193000" />
       <workItem from="1437758145281" duration="6150000" />
-      <workItem from="1437878604965" duration="7817000" />
+      <workItem from="1437878604965" duration="8418000" />
     </task>
     <task id="LOCAL-00001" summary=" 初始化项目">
       <created>1437709026059</created>
@@ -847,11 +853,17 @@
       <option name="project" value="LOCAL" />
       <updated>1437968307196</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="my solution to reverse integer ,take max_value into account">
+      <created>1437971867775</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1437971867775</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29974000" />
+    <option name="totallyTimeSpent" value="30575000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -874,7 +886,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3392" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2584814" sideWeight="0.4944" order="0" side_tool="false" content_ui="combo" />
@@ -908,7 +920,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="测试运行的冒泡排序" />
     <MESSAGE value="编写插入排序" />
     <MESSAGE value="编写快速排序" />
     <MESSAGE value="添加希尔排序ShellSort" />
@@ -933,7 +944,8 @@
     <MESSAGE value="add test main function to example zigzag" />
     <MESSAGE value="add test main function to example of zigzag" />
     <MESSAGE value="add my solution to zigzag" />
-    <option name="LAST_COMMIT_MESSAGE" value="add my solution to zigzag" />
+    <MESSAGE value="my solution to reverse integer ,take max_value into account" />
+    <option name="LAST_COMMIT_MESSAGE" value="my solution to reverse integer ,take max_value into account" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1150,18 +1162,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetcodeExample/src/P1_P50/P04_reverse_integer.java">
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/M04_ReverseInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <caret line="26" column="5" selection-start-line="23" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/M04_ReverseInteger.java">
+    <entry file="file://$PROJECT_DIR$/LeetcodeExample/src/P1_P50/P04_reverse_integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63265306">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.12755102">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding />
         </state>
       </provider>
