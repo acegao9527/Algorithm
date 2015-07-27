@@ -4,7 +4,7 @@ import java.util.Map;
 /**
  * Created by wuzhi1234 on 15/7/27.
  */
-public class M10_TwoSum {
+public class T10_TwoSum {
     public int[] solution(int[] numbers, int target) {
         Map<Integer, Integer> map = new HashMap<>();
 
@@ -21,7 +21,7 @@ public class M10_TwoSum {
     }
     public static void main(String[] args) {
         int[] a = {1,3,4,5,6,8,9,5,7,4};
-        M10_TwoSum b = new M10_TwoSum();
+        T10_TwoSum b = new T10_TwoSum();
         int[] c = b.solution(a,9);
         for (int i :c ) {
             System.out.println(i);
