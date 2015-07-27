@@ -24,4 +24,10 @@ public class P101_zigzag_conversion {
             result += temp[i];
         return result;
     }
+    public static void main(String[] args) {
+        P101_zigzag_conversion t = new P101_zigzag_conversion();
+        String a = "PAYPALISHIRING";
+        String b = t.convert(a,3);
+        System.out.println(b);
+    }
 }
