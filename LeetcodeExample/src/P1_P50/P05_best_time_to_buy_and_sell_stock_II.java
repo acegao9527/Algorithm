@@ -21,7 +21,12 @@ public class P05_best_time_to_buy_and_sell_stock_II {
 
     public static void main(String[] args) {
         String str = "Sep 17, 2013";
-        Date date = new SimpleDateFormat("MMMM d, yy", Locale.ENGLISH).parse(str);
-        System.out.println(date);
+        try{
+            Date date = new SimpleDateFormat("MMMM d, yy", Locale.ENGLISH).parse(str);
+            System.out.println(date);
+        }
+        catch (ParseException e){
+            e.printStackTrace();
+        }
     }
 }
