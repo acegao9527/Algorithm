@@ -1,5 +1,5 @@
 /**
- * Created by wuzhi1234 on 15/7/25.
+ * Created by wuzhi1234 on 15/7/27.
  */
 /*
 * 例如：The string "PAYPALISHIRING"  的蛇形变化如下：
@@ -25,8 +25,7 @@ convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 
 最后输出column的每个字符串：PAHN APLSIIGYIR     ，就得到最后最终结果。
 */
-
-public class T03_SameTree {
+public class T101_ZigzagConversion {
     public String convert(String s, int nRows) {
         if (s.length() == 1 || nRows == 1) {
             return s;
@@ -52,3 +51,4 @@ public class T03_SameTree {
         return result.toString();
     }
 }
+
