@@ -6,7 +6,7 @@
 2. 这个字符串是否有非法字符（非0-9之间的字符）。
 3.这个数是正数或者是负数的情况（第一个字符是否为+，-）。
 4. 是否存在溢出的情况（这个比较难考虑到）。*/
-public class Atoi {
+public class M126_StringToStringAtoi {
     public static int myAtoi(String str) {
         int index = 0;
         int sign = 1;
@@ -47,7 +47,7 @@ public class Atoi {
     }
     public static void main(String[] args) {
         String a="-2147483647";
-        int b =Atoi.myAtoi(a);
+        int b = M126_StringToStringAtoi.myAtoi(a);
         System.out.println(b);
         System.out.println(Integer.MAX_VALUE);
         System.out.println(Integer.MIN_VALUE);
