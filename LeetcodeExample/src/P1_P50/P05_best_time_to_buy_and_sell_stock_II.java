@@ -15,4 +15,8 @@ public class P05_best_time_to_buy_and_sell_stock_II {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
