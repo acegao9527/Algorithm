@@ -26,29 +26,38 @@ convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 最后输出column的每个字符串：PAHN APLSIIGYIR     ，就得到最后最终结果。
 */
 public class T101_ZigzagConversion {
-    public String convert(String s, int nRows) {
-        if (s.length() == 1 || nRows == 1) {
+    public String convert(String s, int numRows) {
+        if (s.length() == 1 || numRows == 1) {
             return s;
         }
-        StringBuffer[] matrix = new StringBuffer[nRows];
-        int i = 0, end = nRows - 2, index = 0;
-        for (i = 0; i < nRows; i++) {
+        StringBuffer[] matrix = new StringBuffer[numRows];
+        int i , end , index = 0;
+        for (i = 0; i < numRows; i++) {
             matrix[i] = new StringBuffer("");
         }
-        while (index < s.length()) {        //向下扩展
-            for (i = 0; index < s.length() && i <= (nRows - 1); i++) {
+        while (index < s.length()) {
+            //向下扩展
+            for (i = 0; index < s.length() && i <= (numRows - 1); i++) {
                 matrix[i].append(s.charAt(index++));
-            }            //斜上扩展，也就是向上
-            for (end = nRows - 2; index < s.length() && end > 0; end--) {
+            }
+            //斜上扩展，也就是向上
+            for (end = numRows - 2; index < s.length() && end > 0; end--) {
                 matrix[end].append(s.charAt(index++));
             }
         }
         StringBuffer result = new StringBuffer("");
-        for (int a = 0; a < nRows; a++) {
+        for (int a = 0; a < numRows; a++) {
             result.append(matrix[a]);
         }
         System.out.println("result=" + result.toString());
         return result.toString();
+    }
+
+    public static void main(String[] args) {
+        T101_ZigzagConversion t = new T101_ZigzagConversion();
+        String a = "PAYPALISHIRING";
+        String b = t.convert(a,3);
+        System.out.println(b);
     }
 }
 
