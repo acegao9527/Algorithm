@@ -20,12 +20,12 @@ public class T17_RomanToInteger {
             //如果相等，当前字符加进临时变量
             if(curv == lastv)
                 sub += curv;
-            //如果当前字符小，则直接在结果中加上临时变量，当前字符变为临时变量
+            //如果当前字符小于上个字符，则直接在结果中加上临时变量，当前字符变为临时变量
             else if( curv < lastv) {
                 result += sub;
                 sub = curv;
             }
-            //如果当前字符大于临时变量，则临时变量变为当前字符和上个字符的差值
+            //如果当前字符大于上个字符，当前变量减去的是临时变量而不是上个字符
                 else {
                 sub = curv - sub;
             }
