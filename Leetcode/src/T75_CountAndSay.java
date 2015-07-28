@@ -30,4 +30,10 @@ public class T75_CountAndSay {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+        T75_CountAndSay t = new T75_CountAndSay();
+        String a = t.countAndSay(5);
+        System.out.println(a);
+    }
 }
