@@ -53,7 +53,7 @@ public class T17_RomanToInteger {
 
     public static void main(String[] args) {
         T17_RomanToInteger t = new T17_RomanToInteger();
-        int a = t.romanToInt("CM");
+        int a = t.romanToInt("DCXXI");
         System.out.println("result:"+a);
     }
 }
