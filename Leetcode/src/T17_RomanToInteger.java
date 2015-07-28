@@ -14,6 +14,8 @@ public class T17_RomanToInteger {
         int result = 0;
         int sub = getRomanValue(s.charAt(0));
         int lastv = sub;
+        //比较都是当前字符与上个字符的比较，操作都是针对临时变量的
+        //相等就临时变量加上当前值，小于就将临时变量加进结果，大于就将临时变量变为当前值与临时变量的差值
         for(int i = 1 ; i < s.length(); i++) {
             char curc = s.charAt(i);
             int curv = getRomanValue(curc);
