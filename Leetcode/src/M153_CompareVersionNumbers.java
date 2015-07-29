@@ -12,7 +12,8 @@ Here is an example of version numbers ordering:
 
 0.1 < 1.1 < 1.2 < 13.37*/
 public class M153_CompareVersionNumbers {
-    /*public int compareVersion(String version1, String version2) {
+    public int compareVersion(String version1, String version2) {
+
         String[] v1 = version1.split("\\.");
         String[] v2 = version2.split("\\.");
         if (Integer.parseInt(v1[0]) > Integer.parseInt(v2[0])) {
@@ -25,10 +26,8 @@ public class M153_CompareVersionNumbers {
         if (Integer.parseInt(v1[1]) < Integer.parseInt(v2[1])) return -1;
         if (Integer.parseInt(v1[1]) == Integer.parseInt(v2[1])) return 0;
         return 0;
-    }*/
-    public int compareVersion(String version1,String version2){
-
     }
+
     public static void main(String[] args) {
         M153_CompareVersionNumbers m = new M153_CompareVersionNumbers();
         int a = m.compareVersion("12.23","33.44");
