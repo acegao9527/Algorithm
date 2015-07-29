@@ -14,6 +14,7 @@ Here is an example of version numbers ordering:
 public class M153_CompareVersionNumbers {
     public int compareVersion(String version1, String version2) {
         //contains的参数是CharSequence，对于. 无需使用转义字符
+        //本方法没法区分多个小数点的情况
         if (version1.contains(".") && version2.contains(".")) {
             String[] v1 = version1.split("\\.");
             String[] v2 = version2.split("\\.");
