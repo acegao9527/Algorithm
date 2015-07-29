@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithm.iml" filepath="$PROJECT_DIR$/Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AllSorts/AllSorts.iml" filepath="$PROJECT_DIR$/AllSorts/AllSorts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leetcode/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode/Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetcodeExample/LeetcodeExample.iml" filepath="$PROJECT_DIR$/LeetcodeExample/LeetcodeExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lintcode/Lintcode.iml" filepath="$PROJECT_DIR$/Lintcode/Lintcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwordOffer/SwordOffer.iml" filepath="$PROJECT_DIR$/SwordOffer/SwordOffer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hihocoder/hihocoder.iml" filepath="$PROJECT_DIR$/hihocoder/hihocoder.iml" />
+    </modules>
+  </component>
+</project>
