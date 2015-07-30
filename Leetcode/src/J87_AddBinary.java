@@ -40,4 +40,10 @@ public class J87_AddBinary {
             rst = "1" + rst;
         return rst;
     }
+
+    public static void main(String[] args) {
+        J87_AddBinary j = new J87_AddBinary();
+        String a = j.addBinary("1111","1011");
+        System.out.println(a);
+    }
 }
