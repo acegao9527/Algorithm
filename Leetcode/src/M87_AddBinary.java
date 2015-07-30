@@ -9,6 +9,6 @@ b = "1"
 Return "100".*/
 public class M87_AddBinary {
     public String addBinary(String a, String b) {
-
+        return "0";
     }
 }
