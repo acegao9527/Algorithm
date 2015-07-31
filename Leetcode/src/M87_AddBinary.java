@@ -45,10 +45,15 @@ public class M87_AddBinary {
         }
         return new StringBuffer(new String(rst,0,k)).reverse().toString();
     }
+    public String addBinary2(String a,String b){
+        int tmp = Integer.parseInt(a,2) + Integer.parseInt(b,2);
+        String rst = Integer.toBinaryString(tmp);
+        return rst;
+    }
 
     public static void main(String[] args) {
         M87_AddBinary m = new M87_AddBinary();
-        String a = m.addBinary("1111","1011");
+        String a = m.addBinary2("1111","1011");
         System.out.println(a);
     }
 }
