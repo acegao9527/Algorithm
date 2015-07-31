@@ -13,16 +13,16 @@ public class ChoseSort {
     //constructor with parameters
     public int[] ChoseSort(int[] intArr){
         for(int i=0;i<intArr.length;i++){
-            //将lowIndex指向未排序的第一个
+            //lowIndex用来指向当前循环找到的最小值
             int lowIndex = i;
-
+            //将所有值与lowIndex索引上的值比较，更小就将lowIndex指向更小值的位置
             for(int j=i+1;j<intArr.length;j++){
                 if(intArr[j]<intArr[lowIndex]){
                     lowIndex = j;
                 }
             }
 
-            //将当前第一个元素与它后面序列中的最小的一个 元素交换，也就是将最小的元素放在最前端
+            //将未排序的第一个与它后面序列中的最小的一个 元素交换，也就是将最小的元素放在最前端
             int temp = intArr[i];
             intArr[i] = intArr[lowIndex];
             intArr[lowIndex] = temp;
