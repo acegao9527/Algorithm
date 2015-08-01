@@ -26,6 +26,7 @@ public class QuickSort {
                     j--;
                 //判断到底是因为什么原因跳出循环
                 if(i < j)
+                    //i位置已经被暂存了，现在填进s[j]
                     s[i++] = s[j];
                 // 从左向右找第一个大于等于x的数
                 while(i < j && s[i] < x)
