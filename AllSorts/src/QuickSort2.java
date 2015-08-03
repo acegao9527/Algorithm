@@ -41,10 +41,12 @@ public class QuickSort2 {
         int pivotkey = n[left];
         //枢轴选定后永远不变，最终在中间，前小后大
         while (left < right) {
-            while (left < right && n[right] >= pivotkey) --right;
+            while (left < right && n[right] >= pivotkey)
+                right--;
             //将比枢轴小的元素移到低端，此时right位相当于空，等待低位比pivotkey大的数补上
             n[left] = n[right];
-            while (left < right && n[left] <= pivotkey) ++left;
+            while (left < right && n[left] <= pivotkey)
+                left++;
             //将比枢轴大的元素移到高端，此时left位相当于空，等待高位比pivotkey小的数补上
             n[right] = n[left];
         }
