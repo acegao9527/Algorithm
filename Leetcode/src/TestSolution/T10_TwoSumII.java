@@ -19,7 +19,7 @@ public class T10_TwoSumII {
     }
 
     public static void main(String[] args) {
-        int[] a = {1,3,4,5,6,8,9
+        int[] a = {1,3,4,5,6,8,9};
         T10_TwoSumII t = new T10_TwoSumII();
         int[] b = t.twoSum(a,9);
         for (int i:b){
