@@ -33,6 +33,6 @@ public class T155_ReverseWordsInString {
 
     public static void main(String[] args) {
         T155_ReverseWordsInString t = new T155_ReverseWordsInString();
-        System.out.println(t.reverseWords("the sky is blue"));
+        System.out.println(t.reverseWords("    the sky is blue"));
     }
 }
