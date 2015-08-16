@@ -20,7 +20,7 @@ public class T10_TwoSum {
         throw new IllegalArgumentException("No two sum solution");
     }
     public static void main(String[] args) {
-        int[] a = {1,3,4,5,6,8,9,5,7,4};
+        int[] a = {1,3,4,4,5,6,8,9,5,7,4};
         T10_TwoSum b = new T10_TwoSum();
         int[] c = b.solution(a,9);
         for (int i :c ) {
