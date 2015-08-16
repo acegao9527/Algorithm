@@ -3,6 +3,8 @@ package TestSolution;
 /**
  * Created by wuzhi1234 on 15/8/16.
  */
+/*Similar to Question [1. Two Sum],
+except that the input array is already sorted in ascending order.*/
 public class T10_TwoSumII {
     public int[] twoSum(int[] numbers, int target) {
         // Assume input is already sorted.
