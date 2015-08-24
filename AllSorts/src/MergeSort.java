@@ -32,7 +32,7 @@ public class MergeSort {
         int[] temp = new int[high - low + 1];
         int i = low;// 左指针
         int j = mid + 1;// 右指针
-        int k = 0;
+        int k = 0;//指向零时空间的指针
 
         // 把较小的数先移到新数组中
         while (i <= mid && j <= high) {

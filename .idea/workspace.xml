@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="127e9523-4f40-4b42-8ea0-62bad359235e" name="Default" comment="alter the solution to test of zigzag" />
-    <list default="true" id="5403482f-6314-4236-bc2d-be5a09d53300" name="alter Atoi" comment="添加归并排序和快排的新代码">
+    <list default="true" id="5403482f-6314-4236-bc2d-be5a09d53300" name="alter Atoi" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AllSorts/src/MergeSort.java" afterPath="$PROJECT_DIR$/AllSorts/src/MergeSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -56,8 +56,8 @@
       <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AllSorts/src/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56435645">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.49421486">
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -180,7 +180,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="726" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -712,13 +712,7 @@
       <workItem from="1439893397710" duration="794000" />
       <workItem from="1440051607389" duration="2076000" />
       <workItem from="1440398029680" duration="817000" />
-      <workItem from="1440398855895" duration="4774000" />
-    </task>
-    <task id="LOCAL-00029" summary="调整Leetcode代码命名结构">
-      <created>1437988045096</created>
-      <option name="number" value="00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1437988045096</updated>
+      <workItem from="1440398855895" duration="4929000" />
     </task>
     <task id="LOCAL-00030" summary="添加twosum的代码">
       <created>1437988352736</created>
@@ -1008,11 +1002,17 @@
       <option name="project" value="LOCAL" />
       <updated>1440404857120</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="注释归并排序">
+      <created>1440405747644</created>
+      <option name="number" value="00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1440405747644</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135303000" />
+    <option name="totallyTimeSpent" value="135458000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1024,7 +1024,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="726" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="725" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1069,7 +1069,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="九章算法中给出的解法，继续添加注释" />
     <MESSAGE value="修改自己的解法" />
     <MESSAGE value="自己如法炮制示例的代码，唉，自己太弱了" />
     <MESSAGE value="添加选择排序" />
@@ -1094,7 +1093,8 @@
     <MESSAGE value="更新冒泡排序代码" />
     <MESSAGE value="添加Plus One的解法" />
     <MESSAGE value="添加归并排序和快排的新代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加归并排序和快排的新代码" />
+    <MESSAGE value="注释归并排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="注释归并排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1473,8 +1473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AllSorts/src/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56435645">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.49421486">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding />
         </state>
       </provider>
