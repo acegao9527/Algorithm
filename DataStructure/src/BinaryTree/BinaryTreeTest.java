@@ -106,6 +106,52 @@ public class BinaryTreeTest {
             对应双向有序链表的最后一个节点就是右子树转换后双向有序链表的最后一个节点，
             同时将根节点和右子树转换后的双向有序链表的第一个节点连 接。
     * */
+    @SuppressWarnings("unused")
+    public static void Convert(TreeNode node,TreeNode FirstNode,TreeNode LastNode){
+        TreeNode FirstLeft = null,FirstRight = null,LastLeft = null,LastRight=null;
+        if (node==null) {
+            FirstNode = null;
+            LastNode = null;
+            return;
+        }
+        if (node.left==null){
+            FirstNode=node;
+        }
+        else {
+            Convert(node.left,FirstLeft,LastLeft);
+            FirstNode=FirstLeft;
+            node.left=LastLeft;
+        }
+
+        if (node.right==null){
+            LastLeft=node;
+        }
+        else {
+            Convert(node.right,FirstRight,LastRight);
+            LastNode=LastRight;
+            node.right=FirstRight;
+        }
+
+    }
+
+    /*
+    * 6. 求二叉树第K层的节点个数
+        递归解法：
+        （1）如果二叉树为空或者k<1返回0
+        （2）如果二叉树不为空并且k==1，返回1
+        （3）如果二叉树不为空且k>1，返回左子树中k-1层的节点个数与右子树k-1层节点个数之和
+    * */
+    public static int getNodeNumKthLevel(TreeNode node,int k){
+        if (node==null || k<1){
+            return 0;
+        }
+        if (k==1){
+            return 1;
+        }
+        int numLeft = getNodeNumKthLevel(node.left,k-1);
+        int numRight = getNodeNumKthLevel(node.right,k-1);
+        return (numLeft+numRight);
+    }
 
 
 
@@ -123,7 +169,8 @@ public class BinaryTreeTest {
         PreOrderTraverse(node1);
         InOrderTraverse(node1);
         LevelTraverse(node1);
-        System.out.println(BinaryTreeTest.listLevel);
+        int c = getNodeNumKthLevel(node1,1);
+        System.out.println(c);
 
     }
 }
