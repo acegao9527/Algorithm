@@ -5,8 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Algorithm.iml" filepath="$PROJECT_DIR$/Algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/AllSorts/AllSorts.iml" filepath="$PROJECT_DIR$/AllSorts/AllSorts.iml" />
       <module fileurl="file://$PROJECT_DIR$/AllTest/AllTest.iml" filepath="$PROJECT_DIR$/AllTest/AllTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Canopy_k/Canopy_k.iml" filepath="$PROJECT_DIR$/Canopy_k/Canopy_k.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JSvmLib/JSvmLib.iml" filepath="$PROJECT_DIR$/JSvmLib/JSvmLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructure/DataStructure.iml" filepath="$PROJECT_DIR$/DataStructure/DataStructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/Leetcode/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode/Leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lintcode/Lintcode.iml" filepath="$PROJECT_DIR$/Lintcode/Lintcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/SwordOffer/SwordOffer.iml" filepath="$PROJECT_DIR$/SwordOffer/SwordOffer.iml" />
