@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="127e9523-4f40-4b42-8ea0-62bad359235e" name="Default" comment="alter the solution to test of zigzag" />
-    <list default="true" id="5403482f-6314-4236-bc2d-be5a09d53300" name="alter Atoi" comment="添加求二叉树第K层的节点个数的方法">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStructure/src/BinaryTree/FindNodeTest.java" />
+    <list default="true" id="5403482f-6314-4236-bc2d-be5a09d53300" name="alter Atoi" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure/src/BinaryTree/BinaryTreeTest.java" afterPath="$PROJECT_DIR$/DataStructure/src/BinaryTree/BinaryTreeTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Gao.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Gao.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algorithm.iws" />
@@ -68,8 +66,8 @@
       <file leaf-file-name="BinaryTreeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DataStructure/src/BinaryTree/BinaryTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.8178809">
-              <caret line="293" column="44" selection-start-line="293" selection-start-column="44" selection-end-line="293" selection-end-column="44" />
+            <state vertical-scroll-proportion="1.089404">
+              <caret line="273" column="4" selection-start-line="273" selection-start-column="4" selection-end-line="273" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#566#567#0" expanded="true" />
@@ -162,8 +160,8 @@
         <option value="$PROJECT_DIR$/DataStructure/src/Queue/Node.java" />
         <option value="$PROJECT_DIR$/DataStructure/src/Queue/Stack.java" />
         <option value="$PROJECT_DIR$/DataStructure/src/Queue/Queue.java" />
-        <option value="$PROJECT_DIR$/DataStructure/src/BinaryTree/BinaryTreeTest.java" />
         <option value="$PROJECT_DIR$/DataStructure/src/BinaryTree/FindNodeTest.java" />
+        <option value="$PROJECT_DIR$/DataStructure/src/BinaryTree/BinaryTreeTest.java" />
       </list>
     </option>
   </component>
@@ -749,13 +747,7 @@
       <workItem from="1440782190677" duration="1044000" />
       <workItem from="1440842128084" duration="237000" />
       <workItem from="1440842387998" duration="3636000" />
-      <workItem from="1441007372598" duration="20080000" />
-    </task>
-    <task id="LOCAL-00038" summary="添加CountAndSay的注释">
-      <created>1438074327142</created>
-      <option name="number" value="00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1438074327142</updated>
+      <workItem from="1441007372598" duration="20833000" />
     </task>
     <task id="LOCAL-00039" summary="添加测试函数代码">
       <created>1438074456990</created>
@@ -1045,11 +1037,17 @@
       <option name="project" value="LOCAL" />
       <updated>1441019467982</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="添加寻找二叉树中两个节点的最低公共祖先节点的方法">
+      <created>1441089128362</created>
+      <option name="number" value="00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1441089128362</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170589000" />
+    <option name="totallyTimeSpent" value="171342000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1134,7 +1132,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="添加新的测试" />
     <MESSAGE value="调整Leetcode文件夹结构" />
     <MESSAGE value="添加twosum的顺序解法" />
     <MESSAGE value="更正twosum的顺序解法" />
@@ -1159,7 +1156,8 @@
     <MESSAGE value="删除旧有的一些模块，新增数据结构训练模块" />
     <MESSAGE value="添加二叉树转换为双向链表的说明" />
     <MESSAGE value="添加求二叉树第K层的节点个数的方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加求二叉树第K层的节点个数的方法" />
+    <MESSAGE value="添加寻找二叉树中两个节点的最低公共祖先节点的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加寻找二叉树中两个节点的最低公共祖先节点的方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1561,8 +1559,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStructure/src/BinaryTree/BinaryTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.8178809">
-          <caret line="293" column="44" selection-start-line="293" selection-start-column="44" selection-end-line="293" selection-end-column="44" />
+        <state vertical-scroll-proportion="1.089404">
+          <caret line="273" column="4" selection-start-line="273" selection-start-column="4" selection-end-line="273" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#566#567#0" expanded="true" />
