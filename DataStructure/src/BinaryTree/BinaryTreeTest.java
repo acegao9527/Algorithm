@@ -1,9 +1,6 @@
 package BinaryTree;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 
 /**
@@ -271,6 +268,65 @@ public class BinaryTreeTest {
         }
     }
 
+    /*
+    * 非递归解法：
+        先求从根节点到两个节点的路径，然后再比较对应路径的节点就行，
+        最后一个相同的节点也就是他们在二叉树中的最低公共祖先节点*/
+    public static boolean getNodePath(TreeNode node1, TreeNode node2, Stack<TreeNode> path){
+        if (node1==null || node2==null){
+            return false;
+        }
+        if (node1==node2){
+            return true;
+        }
+        //是用栈来存储路径，可是后面比较的时候得按照顺序比较，又需要栈转换为队列
+        path.push(node1);
+        boolean found = false;
+        found = getNodePath(node1.left,node2,path);
+        if (!found){
+            found = getNodePath(node1.right,node2,path);
+        }
+        if (!found){
+            path.pop();
+        }
+        return found;
+    }
+
+    public static TreeNode getLastCommonParent2(TreeNode root, TreeNode node1, TreeNode node2){
+        if (root==null || node1==null || node2==null){
+            return null;
+        }
+        Stack<TreeNode> path1 = new Stack<>();
+        boolean resultnode1 = getNodePath(root,node1,path1);
+        Stack<TreeNode> path2 = new Stack<>();
+        boolean resultnode2 = getNodePath(root,node2,path2);
+        TreeNode result=null,tmp1,tmp2;
+        if (!resultnode1 || !resultnode2){
+            return result;
+        }
+        int i = 0;
+        while (i<path1.size()&&i<path2.size()){
+            tmp1=path1.get(i);
+            tmp2=path2.get(i);
+            result=tmp1;
+            if (tmp1!=tmp2){
+                return result;
+            }
+            i++;
+        }
+        return result;
+
+    }
+
+    /*12. 求二叉树中节点的最大距离
+        即二叉树中相距最远的两个节点之间的距离。
+        递归解法：
+        （1）如果二叉树为空，返回0，同时记录左子树和右子树的深度，都为0
+        （2）如果二叉树不为空，最大距离要么是左子树中的最大距离，要么是右子树中的最大距离，
+        要么是左子树节点中到根节点的最大距离+右子树节点中到根节点的最大距离，
+        同时记录左子树和右子树节点中到根节点的最大距离。
+    */
+
 
 
     public static void main(String[] args) {
@@ -281,20 +337,9 @@ public class BinaryTreeTest {
         node1.left=node2;
         node1.right=node3;
         node2.left=node4;
-//        int a = getNodeNum(node1);
-//        int b = getDepth(node1);
-//        PreOrderTraverse(node1);
-//        InOrderTraverse(node1);
-//        LevelTraverse(node1);
-//        int c = getNodeNumKthLevel(node1,1);
-//        int d = getLeafNodeNum(node1);
-//        boolean e = StructureCmp(node1, node2);
-//        int height =0;
-//        boolean f = IsAVL(node1,height);
-//        TreeNode g = Mirror(node1);
-//        boolean i =FindNode(node2, node4);
-        TreeNode h = getLastCommonParent(node1, node4, node3);
-        System.out.println(h.value);
+
+        TreeNode root = getLastCommonParent2(node1,node4,node3);
+        System.out.println(root.value);
 
     }
 }
