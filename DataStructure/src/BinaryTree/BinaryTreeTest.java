@@ -17,7 +17,7 @@ public class BinaryTreeTest {
     //广度遍历结果
     public static List<Integer> listLevel = new ArrayList<>();
 
-    static class TreeNode{
+    public static class TreeNode{
         int value;
         TreeNode left;
         TreeNode right;
@@ -148,12 +148,128 @@ public class BinaryTreeTest {
         if (k==1){
             return 1;
         }
-        int numLeft = getNodeNumKthLevel(node.left,k-1);
-        int numRight = getNodeNumKthLevel(node.right,k-1);
+        int numLeft = getNodeNumKthLevel(node.left, k - 1);
+        int numRight = getNodeNumKthLevel(node.right, k - 1);
         return (numLeft+numRight);
     }
 
+    /*7. 求二叉树中叶子节点的个数
+        递归解法：
+        （1）如果二叉树为空，返回0
+        （2）如果二叉树不为空且左右子树为空，返回1
+        （3）如果二叉树不为空，且左右子树不同时为空，返回左子树中叶子节点个数加上右子树中叶子节点个数
+    */
+    public static int getLeafNodeNum(TreeNode node){
+        if (node==null)
+            return 0;
+        if (node.left==null && node.right==null)
+            return 1;
+        int numLeft = getLeafNodeNum(node.left);
+        int numRight = getLeafNodeNum(node.right);
+        return (numLeft+numRight);
+    }
 
+    /*8. 判断两棵二叉树是否结构相同
+        不考虑数据内容。结构相同意味着对应的左子树和对应的右子树都结构相同。
+        递归解法：
+        （1）如果两棵二叉树都为空，返回真
+        （2）如果两棵二叉树一棵为空，另一棵不为空，返回假
+        （3）如果两棵二叉树都不为空，如果对应的左子树和右子树都同构返回真，其他返回假
+    */
+    public static boolean StructureCmp(TreeNode node1,TreeNode node2){
+        if (node1==null && node2==null){
+            return true;
+        }
+        else if (node1==null || node2==null){
+            return false;
+        }
+        else {
+            boolean leftCmp = StructureCmp(node1.left,node2.left);
+            boolean rightCmp = StructureCmp(node1.right,node2.right);
+            return (leftCmp&&rightCmp);
+
+        }
+    }
+
+    /*9. 判断二叉树是不是平衡二叉树
+        递归解法：
+        （1）如果二叉树为空，返回真
+        （2）如果二叉树不为空，如果左子树和右子树都是AVL树并且左子树和右子树高度相差不大于1，返回真，其他返回假
+    */
+    public static boolean IsAVL(TreeNode node,int height){
+        if (node==null){
+            height=0;
+            return true;
+        }
+        //预先设置一个值用来存结果，因为并没有方法只能有一个返回值
+        int heightleft = 0;
+        boolean resultleft = IsAVL(node.left,heightleft);
+        int heightright = 0;
+        boolean resultright = IsAVL(node.right,heightright);
+        if (resultleft && resultright && Math.abs(heightleft-heightright)<=1){
+            height=Math.max(heightleft,heightright)+1;
+            return true;
+        }
+        else {
+            height=Math.max(heightleft,heightright)+1;
+            return false;
+        }
+    }
+
+    /*10. 求二叉树的镜像
+        递归解法：
+        （1）如果二叉树为空，返回空
+        （2）如果二叉树不为空，求左子树和右子树的镜像，然后交换左子树和右子树
+    */
+    public static TreeNode Mirror(TreeNode node){
+        if (node==null){
+            return null;
+        }
+        node.right = Mirror(node.left);
+        node.left = Mirror(node.right);
+        return node;
+    }
+
+    /*11. 求二叉树中两个节点的最低公共祖先节点
+        递归解法：
+        （1）如果两个节点分别在根节点的左子树和右子树，则返回根节点
+        （2）如果两个节点都在左子树，则递归处理左子树；如果两个节点都在右子树，则递归处理右子树
+
+        具体代码：设置一个布尔返回值的函数来判断节点是在跟节点的左右子树
+                在给定根节点的情况下判断两个节点的最低公共祖先节点
+    */
+    public static boolean FindNode(TreeNode root,TreeNode node){
+        if (root==null || node==null){
+            return false;
+        }
+        if (root==node){
+            return true;
+        }
+        boolean found = FindNode(root.left,node);
+        if (!found){
+            found = FindNode(root.right,node);
+        }
+        return found;
+    }
+
+    public static TreeNode getLastCommonParent(TreeNode root, TreeNode tmp1, TreeNode tmp2){
+        if (FindNode(root.left,tmp1)){
+            if (FindNode(root.right,tmp2)){
+                return root;
+            }
+            else {
+                return getLastCommonParent(root.left,tmp1,tmp2);
+            }
+        }
+        else {
+            if (FindNode(root.left, tmp2)) {
+                    return root;
+            }
+            else {
+                return getLastCommonParent(root.right, tmp1, tmp2);
+            }
+        }
+    }
 
 
     public static void main(String[] args) {
@@ -164,13 +280,20 @@ public class BinaryTreeTest {
         node1.left=node2;
         node1.right=node3;
         node2.left=node4;
-        int a = getNodeNum(node1);
-        int b = getDepth(node1);
-        PreOrderTraverse(node1);
-        InOrderTraverse(node1);
-        LevelTraverse(node1);
-        int c = getNodeNumKthLevel(node1,1);
-        System.out.println(c);
+//        int a = getNodeNum(node1);
+//        int b = getDepth(node1);
+//        PreOrderTraverse(node1);
+//        InOrderTraverse(node1);
+//        LevelTraverse(node1);
+//        int c = getNodeNumKthLevel(node1,1);
+//        int d = getLeafNodeNum(node1);
+//        boolean e = StructureCmp(node1, node2);
+//        int height =0;
+//        boolean f = IsAVL(node1,height);
+//        TreeNode g = Mirror(node1);
+//        boolean i =FindNode(node2, node4);
+        TreeNode h = getLastCommonParent(node1, node4, node3);
+        System.out.println(h.value);
 
     }
 }
