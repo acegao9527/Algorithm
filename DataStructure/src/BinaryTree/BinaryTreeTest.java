@@ -319,6 +319,7 @@ public class BinaryTreeTest {
     }
 
     /*12. 求二叉树中节点的最大距离
+        具体分析（http://blog.csdn.net/lalor/article/details/7626678）
         即二叉树中相距最远的两个节点之间的距离。
         递归解法：
         （1）如果二叉树为空，返回0，同时记录左子树和右子树的深度，都为0
@@ -326,6 +327,35 @@ public class BinaryTreeTest {
         要么是左子树节点中到根节点的最大距离+右子树节点中到根节点的最大距离，
         同时记录左子树和右子树节点中到根节点的最大距离。
     */
+    public static int getMaxDistance(TreeNode node, int maxLeft, int maxRight){
+        // maxLeft, 左子树中的节点距离左子树根节点的最远距离
+        // maxRight, 右子树中的节点距离左子树根节点的最远距离
+        if (node==null){
+            maxLeft=0;
+            maxRight=0;
+            return 0;
+        }
+        int maxLL=0,maxLR=0,maxRL=0,maxRR=0;
+        int maxDistLeft,maxDistRight;
+        if (node.left!=null){
+            maxDistLeft= getMaxDistance(node.left,maxLL,maxLR);
+            maxLeft=Math.max(maxLL,maxLR)+1;
+        }
+        else {
+            maxDistLeft=0;
+            maxLeft=0;
+        }
+        if (node.right!=null){
+            maxDistRight= getMaxDistance(node.right,maxRL,maxRR);
+            maxRight=Math.max(maxRL,maxRR)+1;
+        }
+        else {
+            maxDistRight=0;
+            maxRight=0;
+        }
+        int result = Math.max(Math.max(maxDistLeft,maxDistRight),maxLeft+maxRight+1);
+        return result;
+    }
 
 
 
@@ -338,8 +368,9 @@ public class BinaryTreeTest {
         node1.right=node3;
         node2.left=node4;
 
-        TreeNode root = getLastCommonParent2(node1,node4,node3);
-        System.out.println(root.value);
+        int maxLeft=0,maxRight=0;
+        int a = getMaxDistance(node1,maxLeft,maxRight);
+        System.out.println(a);
 
     }
 }
