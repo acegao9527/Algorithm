@@ -14,7 +14,7 @@ public class MaxDistance {
         }
     }
 
-    public static int getMaxDistance(TreeNode node, int maxLeft, int maxRight){
+    public int getMaxDistance(TreeNode node, int maxLeft, int maxRight){
         // maxLeft, 左子树中的节点距离左子树根节点的最远距离
         // maxRight, 右子树中的节点距离左子树根节点的最远距离
         if (node==null){
@@ -53,11 +53,12 @@ public class MaxDistance {
         node1.right=node3;
         node2.left=node4;
 
-        int maxLeft=0,maxRight=0;
-        int a = getMaxDistance(node1, maxLeft, maxRight);
+        int i=0,j=0;
+        MaxDistance m = new MaxDistance();
+        int a = m.getMaxDistance(node1, i, j);
         System.out.println(a);
-        System.out.println(maxLeft);
-        System.out.println(maxRight);
+        System.out.println(i);
+        System.out.println(j);
 
     }
 }
