@@ -4,12 +4,17 @@
 public class BubbleSort_Me{
     public static int[] Solution(int[] a){
         for (int i=0;i<a.length-1 ;i++ ) {
+            boolean flag = false;
             for (int j=0;j<a.length-i-1 ;j++ ) {
                 if (a[j]>a[j+1]) {
                     int tmp=a[j];
                     a[j]=a[j+1];
                     a[j+1]=tmp;
+                    flag=true;
                 }
+            }
+            if (!flag){
+                return a;
             }
         }
         return a;
