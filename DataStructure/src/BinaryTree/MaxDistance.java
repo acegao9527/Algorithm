@@ -3,6 +3,8 @@ package BinaryTree;
 /**
  * Created by wuzhi1234 on 15/9/2.
  */
+
+/*错误解法，按值传递搞错了*/
 public class MaxDistance {
     public static class TreeNode{
         int value;

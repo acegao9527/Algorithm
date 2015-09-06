@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="127e9523-4f40-4b42-8ea0-62bad359235e" name="Default" comment="alter the solution to test of zigzag" />
-    <list default="true" id="5403482f-6314-4236-bc2d-be5a09d53300" name="alter Atoi" comment="将求最大距离的代码单独成类">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStructure/src/BinaryTree/ValuetransTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Gao.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Gao.xml" />
+    <list default="true" id="5403482f-6314-4236-bc2d-be5a09d53300" name="alter Atoi" comment="继续折腾二叉树">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure/src/BinaryTree/MaxDistance.java" afterPath="$PROJECT_DIR$/DataStructure/src/BinaryTree/MaxDistance.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -45,21 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindNodeTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindNodeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataStructure/src/BinaryTree/FindNodeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.0826447">
-              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxDistance.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MaxDistance.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DataStructure/src/BinaryTree/MaxDistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.20757826">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -157,8 +155,8 @@
         <option value="$PROJECT_DIR$/DataStructure/src/BinaryTree/FindNodeTest.java" />
         <option value="$PROJECT_DIR$/Leetcode/src/MySolution/M28_BalancedBinaryTree.java" />
         <option value="$PROJECT_DIR$/DataStructure/src/BinaryTree/BinaryTreeTest.java" />
-        <option value="$PROJECT_DIR$/DataStructure/src/BinaryTree/MaxDistance.java" />
         <option value="$PROJECT_DIR$/DataStructure/src/BinaryTree/ValuetransTest.java" />
+        <option value="$PROJECT_DIR$/DataStructure/src/BinaryTree/MaxDistance.java" />
       </list>
     </option>
   </component>
@@ -232,7 +230,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -327,6 +324,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -779,13 +777,9 @@
       <workItem from="1441106456777" duration="2331000" />
       <workItem from="1441112251676" duration="13067000" />
       <workItem from="1441245127493" duration="378000" />
-      <workItem from="1441293668258" duration="501000" />
-    </task>
-    <task id="LOCAL-00044" summary="重新修改自己的CompareVersionNumbers，对多点不支持">
-      <created>1438164731914</created>
-      <option name="number" value="00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1438164731914</updated>
+      <workItem from="1441293668258" duration="1222000" />
+      <workItem from="1441329742877" duration="606000" />
+      <workItem from="1441522976833" duration="40000" />
     </task>
     <task id="LOCAL-00045" summary="添加多点不支持的备注">
       <created>1438165641400</created>
@@ -1075,11 +1069,17 @@
       <option name="project" value="LOCAL" />
       <updated>1441185825793</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="继续折腾二叉树">
+      <created>1441294394023</created>
+      <option name="number" value="00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1441294394025</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198326000" />
+    <option name="totallyTimeSpent" value="199693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1164,7 +1164,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="添加StrStr的解法" />
     <MESSAGE value="添加自己重写的StrStr的解法" />
     <MESSAGE value="修改自己重写的StrStr的解法" />
     <MESSAGE value="添加ReverseWordsInString的解法，并添加注释" />
@@ -1189,14 +1188,15 @@
     <MESSAGE value="添加平衡二叉树的判别" />
     <MESSAGE value="添加求最大距离的代码" />
     <MESSAGE value="将求最大距离的代码单独成类" />
-    <option name="LAST_COMMIT_MESSAGE" value="将求最大距离的代码单独成类" />
+    <MESSAGE value="继续折腾二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="继续折腾二叉树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/DataStructure/src/BinaryTree/MaxDistance.java</url>
-          <line>57</line>
+          <line>59</line>
           <properties />
           <option name="timeStamp" value="106" />
         </line-breakpoint>
@@ -1548,18 +1548,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructure/src/BinaryTree/MaxDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructure/src/BinaryTree/ValuetransTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructure/src/BinaryTree/FindNodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1572,10 +1572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructure/src/BinaryTree/FindNodeTest.java">
+    <entry file="file://$PROJECT_DIR$/DataStructure/src/BinaryTree/MaxDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0826447">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.20757826">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding />
         </state>
       </provider>
