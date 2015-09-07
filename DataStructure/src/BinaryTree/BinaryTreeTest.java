@@ -199,6 +199,7 @@ public class BinaryTreeTest {
             return true;
         }
         //预先设置一个值用来存结果，因为并没有方法只能有一个返回值
+        //这种方法在Java中貌似并不奏效
         int heightleft = 0;
         boolean resultleft = IsAVL(node.left,heightleft);
         int heightright = 0;
