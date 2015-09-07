@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="127e9523-4f40-4b42-8ea0-62bad359235e" name="Default" comment="alter the solution to test of zigzag" />
-    <list default="true" id="5403482f-6314-4236-bc2d-be5a09d53300" name="alter Atoi" comment="自己重写插入排序">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStructure/src/LinkedList/LinkedListTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure/src/BinaryTree/BinaryTreeTest.java" afterPath="$PROJECT_DIR$/DataStructure/src/BinaryTree/BinaryTreeTest.java" />
+    <list default="true" id="5403482f-6314-4236-bc2d-be5a09d53300" name="alter Atoi" comment="练习链表的相关问题">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure/src/LinkedList/LinkedListTest.java" afterPath="$PROJECT_DIR$/DataStructure/src/LinkedList/LinkedListTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algorithm.iws" />
@@ -47,8 +46,8 @@
       <file leaf-file-name="LinkedListTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DataStructure/src/LinkedList/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62376237">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.82615894">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
               <folding>
                 <element signature="e#212#213#0" expanded="true" />
                 <element signature="e#254#255#0" expanded="true" />
@@ -783,13 +782,7 @@
       <workItem from="1441329742877" duration="606000" />
       <workItem from="1441522976833" duration="40000" />
       <workItem from="1441525494595" duration="3150000" />
-      <workItem from="1441593572636" duration="2033000" />
-    </task>
-    <task id="LOCAL-00047" summary="添加配置文件的备份，都备份了吧~">
-      <created>1438184463702</created>
-      <option name="number" value="00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1438184463702</updated>
+      <workItem from="1441593572636" duration="2821000" />
     </task>
     <task id="LOCAL-00048" summary="重写了新的CompareVersionNumbers">
       <created>1438243546414</created>
@@ -1079,11 +1072,17 @@
       <option name="project" value="LOCAL" />
       <updated>1441533785610</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="练习链表的相关问题">
+      <created>1441607034197</created>
+      <option name="number" value="00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1441607034201</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204876000" />
+    <option name="totallyTimeSpent" value="205664000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1100,6 +1099,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32594937" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32543445" sideWeight="0.49676898" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270142" sideWeight="0.503231" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1119,7 +1119,6 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39873418" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32543445" sideWeight="0.49676898" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37183544" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1168,7 +1167,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="添加ReverseWordsInString的解法，并添加注释" />
     <MESSAGE value="更改测试" />
     <MESSAGE value="添加Svm的测试代码" />
     <MESSAGE value="继续添加Svm的测试代码" />
@@ -1193,7 +1191,8 @@
     <MESSAGE value="继续折腾二叉树" />
     <MESSAGE value="修改冒泡排序" />
     <MESSAGE value="自己重写插入排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="自己重写插入排序" />
+    <MESSAGE value="练习链表的相关问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习链表的相关问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1583,8 +1582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStructure/src/LinkedList/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62376237">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.82615894">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
           <folding>
             <element signature="e#212#213#0" expanded="true" />
             <element signature="e#254#255#0" expanded="true" />
