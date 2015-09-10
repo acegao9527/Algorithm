@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="127e9523-4f40-4b42-8ea0-62bad359235e" name="Default" comment="alter the solution to test of zigzag" />
-    <list default="true" id="5403482f-6314-4236-bc2d-be5a09d53300" name="alter Atoi" comment="练习链表的相关问题">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure/src/LinkedList/LinkedListTest.java" afterPath="$PROJECT_DIR$/DataStructure/src/LinkedList/LinkedListTest.java" />
+    <list default="true" id="5403482f-6314-4236-bc2d-be5a09d53300" name="alter Atoi" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataStructure/src/LinkedList/ReverseSingleList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure/src/BinaryTree/ValuetransTest.java" afterPath="$PROJECT_DIR$/DataStructure/src/BinaryTree/ValuetransTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algorithm.iws" />
@@ -33,34 +34,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InsertSort_Me.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AllSorts/src/InsertSort_Me.java">
+      <file leaf-file-name="BinaryTreeTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructure/src/BinaryTree/BinaryTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <caret line="204" column="28" selection-start-line="204" selection-start-column="28" selection-end-line="204" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedListTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkedListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataStructure/src/LinkedList/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82615894">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseSingleList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DataStructure/src/LinkedList/ReverseSingleList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.34266886">
+              <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
               <folding>
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InsertSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AllSorts/src/InsertSort.java">
+      <file leaf-file-name="ValuetransTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructure/src/BinaryTree/ValuetransTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="9" selection-start-line="23" selection-start-column="8" selection-end-line="27" selection-end-column="9" />
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -99,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Leetcode/src/M00_Test.java" />
         <option value="$PROJECT_DIR$/Leetcode/src/M153_CompareVersionNumbers.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -144,12 +160,13 @@
         <option value="$PROJECT_DIR$/DataStructure/src/Queue/Queue.java" />
         <option value="$PROJECT_DIR$/DataStructure/src/BinaryTree/FindNodeTest.java" />
         <option value="$PROJECT_DIR$/Leetcode/src/MySolution/M28_BalancedBinaryTree.java" />
-        <option value="$PROJECT_DIR$/DataStructure/src/BinaryTree/ValuetransTest.java" />
         <option value="$PROJECT_DIR$/DataStructure/src/BinaryTree/MaxDistance.java" />
         <option value="$PROJECT_DIR$/AllSorts/src/BubbleSort_Me.java" />
         <option value="$PROJECT_DIR$/AllSorts/src/InsertSort_Me.java" />
         <option value="$PROJECT_DIR$/DataStructure/src/BinaryTree/BinaryTreeTest.java" />
+        <option value="$PROJECT_DIR$/DataStructure/src/BinaryTree/ValuetransTest.java" />
         <option value="$PROJECT_DIR$/DataStructure/src/LinkedList/LinkedListTest.java" />
+        <option value="$PROJECT_DIR$/DataStructure/src/LinkedList/ReverseSingleList.java" />
       </list>
     </option>
   </component>
@@ -173,7 +190,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="724" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -223,7 +240,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -334,8 +352,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -372,7 +389,7 @@
       <recent name="$PROJECT_DIR$/Canopy_k/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertSort_Me">
+  <component name="RunManager" selected="Application.ValuetransTest">
     <configuration default="false" name="BinaryTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -709,9 +726,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.InsertSort_Me" />
-        <item index="1" class="java.lang.String" itemvalue="Application.InsertSort" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ValuetransTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ValuetransTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.InsertSort_Me" />
+        <item index="2" class="java.lang.String" itemvalue="Application.InsertSort" />
         <item index="3" class="java.lang.String" itemvalue="Application.MaxDistance" />
         <item index="4" class="java.lang.String" itemvalue="Application.BinaryTreeTest" />
       </list>
@@ -782,13 +799,9 @@
       <workItem from="1441329742877" duration="606000" />
       <workItem from="1441522976833" duration="40000" />
       <workItem from="1441525494595" duration="3150000" />
-      <workItem from="1441593572636" duration="2821000" />
-    </task>
-    <task id="LOCAL-00048" summary="重写了新的CompareVersionNumbers">
-      <created>1438243546414</created>
-      <option name="number" value="00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1438243546414</updated>
+      <workItem from="1441593572636" duration="9061000" />
+      <workItem from="1441778661977" duration="121000" />
+      <workItem from="1441856355895" duration="398000" />
     </task>
     <task id="LOCAL-00049" summary="添加自己和找到的对于AddBinary的解法">
       <created>1438246025203</created>
@@ -1078,11 +1091,17 @@
       <option name="project" value="LOCAL" />
       <updated>1441607034201</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="实现单链表的反转">
+      <created>1441607875790</created>
+      <option name="number" value="00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1441607875790</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205664000" />
+    <option name="totallyTimeSpent" value="212423000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1094,12 +1113,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="725" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32594937" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32543445" sideWeight="0.49676898" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270142" sideWeight="0.503231" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1119,6 +1137,7 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39873418" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32543445" sideWeight="0.49676898" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37183544" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1167,7 +1186,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="更改测试" />
     <MESSAGE value="添加Svm的测试代码" />
     <MESSAGE value="继续添加Svm的测试代码" />
     <MESSAGE value="更新冒泡排序代码" />
@@ -1192,7 +1210,8 @@
     <MESSAGE value="修改冒泡排序" />
     <MESSAGE value="自己重写插入排序" />
     <MESSAGE value="练习链表的相关问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="练习链表的相关问题" />
+    <MESSAGE value="实现单链表的反转" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现单链表的反转" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1203,11 +1222,23 @@
           <properties />
           <option name="timeStamp" value="106" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStructure/src/BinaryTree/ValuetransTest.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DataStructure/src/BinaryTree/ValuetransTest.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="107" />
+      <option name="time" value="109" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1216,28 +1247,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/Callable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.717608">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/MySolution/M87_AddBinary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2772278">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../awesome-java/README.md">
-      <provider editor-type-id="markdown-preview-editor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.013913">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="markdown-preview-editor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode/src/TestSolution/T10_TwoSum.java">
@@ -1248,13 +1265,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="markdown-preview-editor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.375">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
+      </provider>
+      <provider editor-type-id="markdown-preview-editor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode/src/TestSolution/T10_TwoSumIII.java">
@@ -1535,17 +1552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#221#222#0" expanded="false" />
-            <element signature="e#263#264#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructure/src/BinaryTree/ValuetransTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5910596">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1556,37 +1562,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AllSorts/src/InsertSort.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="9" selection-start-line="23" selection-start-column="8" selection-end-line="27" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructure/src/BinaryTree/BinaryTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.8267326">
-          <caret line="204" column="28" selection-start-line="204" selection-start-column="28" selection-end-line="204" selection-end-column="28" />
-          <folding />
+        <state vertical-scroll-proportion="-63.0">
+          <caret line="136" column="13" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AllSorts/src/InsertSort_Me.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.307947">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AllSorts/src/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6870861">
+          <caret line="27" column="9" selection-start-line="23" selection-start-column="8" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructure/src/BinaryTree/BinaryTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="204" column="28" selection-start-line="204" selection-start-column="28" selection-end-line="204" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructure/src/BinaryTree/ValuetransTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStructure/src/LinkedList/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82615894">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructure/src/LinkedList/ReverseSingleList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34266886">
+          <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
           <folding>
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
           </folding>
         </state>
       </provider>

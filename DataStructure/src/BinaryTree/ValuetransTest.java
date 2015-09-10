@@ -5,7 +5,8 @@ package BinaryTree;
  */
 public class ValuetransTest {
     public static void test(Integer t){
-        t=new Integer(1);
+        //t=new Integer(1);
+        t++;
         System.out.println("方法内的a为"+t);
     }
 
