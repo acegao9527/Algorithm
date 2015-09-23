@@ -45,6 +45,7 @@ public class HeapSort {
                     // 若当前节点值比子节点最大值小，则交换2者得值，交换后将biggerIndex值赋值给k
                     swap(data, k, biggerIndex);
                     k = biggerIndex;
+                    //要么当前节点不用调整，要么当前节点得递归调整
                 } else {
                     break;
                 }
