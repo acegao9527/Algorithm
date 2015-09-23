@@ -1,3 +1,4 @@
+/*http://blog.csdn.net/apei830/article/details/6584645*/
 public class HeapSort {
 
     public static void main(String[] args) {
@@ -27,7 +28,7 @@ public class HeapSort {
 
     public static void createMaxdHeap(int[] data, int lastIndex) {
         for (int i = (lastIndex - 1) / 2; i >= 0; i--) {
-            // 保存当前正在判断的节点
+            // 保存当前正在判断的节点，从最后一个非叶子节点开始
             int k = i;
             // 若当前节点的子节点存在
             while (2 * k + 1 <= lastIndex) {
@@ -36,7 +37,7 @@ public class HeapSort {
                 if (biggerIndex < lastIndex) {
                     // 若右子节点存在，否则此时biggerIndex应该等于 lastIndex
                     if (data[biggerIndex] < data[biggerIndex + 1]) {
-                        // 若右子节点值比左子节点值大，则biggerIndex记录的是右子节点的值
+                        // 若右子节点值比左子节点值大，则biggerIndex记录的是右子节点的索引位置
                         biggerIndex++;
                     }
                 }
